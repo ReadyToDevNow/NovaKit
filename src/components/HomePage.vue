@@ -10,7 +10,7 @@
       </nav>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Catch Section -->
     <section class="text-center py-20 bg-[#51768C] text-white">
       <h2 class="text-4xl font-extrabold mb-4">Explorez des assets digitaux uniques</h2>
       <p class="text-lg max-w-2xl mx-auto">

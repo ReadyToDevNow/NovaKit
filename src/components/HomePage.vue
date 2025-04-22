@@ -28,8 +28,9 @@
         <img :src="item.image" :alt="item.name" class="w-full h-48 object-cover" />
         <div class="p-4 w-full flex flex-col justify-between">
           <div>
-            <router-link to="Product">Dashboard</router-link>
-            <h3 class="text-xl font-semibold">{{ item.name }}</h3>
+            <router-link to="Product">
+              <h3 class="text-xl font-semibold">{{ item.name }}</h3></router-link
+            >
             <p class="text-sm text-gray-600 mt-1">{{ item.description }}</p>
           </div>
           <div class="mt-4 text-right">

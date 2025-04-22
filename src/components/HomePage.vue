@@ -25,7 +25,7 @@
         :key="item.id"
         class="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col md:flex-row"
       >
-        <img :src="logo" :alt="item.name" class="w-full md:w-2/3 h-48 object-cover" />
+        <img :src="item.image" :alt="item.name" class="w-full h-48 object-cover" />
         <div class="p-4 w-full flex flex-col justify-between">
           <div>
             <h3 class="text-xl font-semibold">{{ item.name }}</h3>
@@ -52,34 +52,37 @@
 
 <script setup>
 import logo from '@/assets/logos.png'
+import template from '@/assets/templates.png'
+import sprite from '@/assets/sprites.png'
+import godpack from '@/assets/godpack.png'
 const items = [
   {
     id: 1,
     name: 'Pack de sprites Fantasy',
     description: 'Un set de personnages et monstres pixel art.',
     price: 150.99,
-    img: '@/assets/logo.png',
+    image: sprite,
   },
   {
     id: 2,
     name: 'Icônes UI modernes',
     description: 'Icônes vectorielles parfaites pour vos jeux ou apps.',
     price: 90.99,
-    image: 'https://via.placeholder.com/300x200?text=UI+Icons',
+    image: logo,
   },
   {
     id: 3,
-    name: 'Arrière-plans de villes futuristes',
+    name: 'Templates et backgrounds',
     description: 'Backgrounds en haute qualité pour side-scrollers.',
     price: 190.99,
-    image: 'https://via.placeholder.com/300x200?text=Backgrounds',
+    image: template,
   },
   {
     id: 4,
     name: 'All For One',
     description: 'Le kit ultime',
     price: 399.99,
-    image: 'https://via.placeholder.com/300x200?text=Backgrounds',
+    image: godpack,
   },
 ]
 </script>

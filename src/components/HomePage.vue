@@ -28,6 +28,7 @@
         <img :src="item.image" :alt="item.name" class="w-full h-48 object-cover" />
         <div class="p-4 w-full flex flex-col justify-between">
           <div>
+            <router-link to="Product">Dashboard</router-link>
             <h3 class="text-xl font-semibold">{{ item.name }}</h3>
             <p class="text-sm text-gray-600 mt-1">{{ item.description }}</p>
           </div>
@@ -55,6 +56,7 @@ import logo from '@/assets/logos.png'
 import template from '@/assets/templates.png'
 import sprite from '@/assets/sprites.png'
 import godpack from '@/assets/godpack.png'
+
 const items = [
   {
     id: 1,

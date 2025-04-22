@@ -20,15 +20,80 @@
 -->
     <!-- Main content - 1 card per row -->
     <main class="p-6 space-y-6 max-w-3xl mx-auto">
-      <div class="flex flex-col items-center text-white">
-        <span></span>
-        <span class="bg-[#673AB7 ]">Sections Font</span>
-        <span class="bg-[#EDE7F6]">Section Icons</span>
-        <span class="bg-[#D1C4E9]">GodPack</span>
-        <span class="bg-[#B39DDB]">Section Couleur</span>
-        <span class="bg-[#9575CD]">Sections Font</span>
-        <span class="bg-[#7E57C2]">Section Icons</span>
-        <span>GodPack</span>
+      <div class="flex flex-row p-4 items-center text-white">
+        <div class="flex flex-col mr-4">
+          <span class="bg-[#F44336]">Red</span>
+          <span class="bg-[#FFEBEE] text-black">red-lighten-5</span>
+          <span class="bg-[#FFCDD2] text-black">red-lighten-4</span>
+          <span class="bg-[#EF9A9A] text-black">red-lighten-3</span>
+          <span class="bg-[#E57373]">red-lighten-2</span>
+          <span class="bg-[#EF5350]">red-lighten-1</span>
+          <span class="bg-[#E53935]">red-darken-1</span>
+          <span class="bg-[#D32F2F]">red-darken-2</span>
+          <span class="bg-[#C62828]">red-darken-3</span>
+          <span class="bg-[#B71C1C]">red-darken-4</span>
+          <span class="bg-[#FF8A80]">red-accent-1</span>
+          <span class="bg-[#FF5252]">red-accent-2</span>
+          <span class="bg-[#FF1744]">red-accent-3</span>
+          <span class="bg-[#D50000]">red-accent-4</span>
+          <span>GodPack</span>
+        </div>
+        <!--
+        <div class="flex flex-col mr-4">
+          <span class="bg-[#673AB7]">Sections Font</span>
+          <span class="bg-[#EDE7F6]">Section Icons</span>
+          <span class="bg-[#D1C4E9]">GodPack</span>
+          <span class="bg-[#B39DDB]">Section Couleur</span>
+          <span class="bg-[#9575CD]">Sections Font</span>
+          <span class="bg-[#7E57C2]">Section Icons</span>
+          <span>GodPack</span>
+        </div>
+        <div class="flex flex-col mr-4">
+          <span class="bg-[#B2EBF2]">Sections Font</span>
+          <span class="bg-[#80DEEA]">Section Icons</span>
+          <span class="bg-[#4DD0E1]">GodPack</span>
+          <span class="bg-[#26C6DA]">Section Couleur</span>
+          <span class="bg-[#00ACC1]">Sections Font</span>
+          <span class="bg-[#0097A7]">Section Icons</span>
+          <span>GodPack</span>
+        </div>
+        <div class="flex flex-col mr-4">
+          <span class="bg-[#B2DFDB]">Sections Font</span>
+          <span class="bg-[#80CBC4]">Section Icons</span>
+          <span class="bg-[#4DB6AC]">GodPack</span>
+          <span class="bg-[#26A69A]">Section Couleur</span>
+          <span class="bg-[#00897B]">Sections Font</span>
+          <span class="bg-[#00796B]">Section Icons</span>
+          <span>GodPack</span>
+        </div>
+        <div class="flex flex-col mr-4">
+          <span class="bg-[#B2DFDB]">Sections Font</span>
+          <span class="bg-[#80CBC4]">Section Icons</span>
+          <span class="bg-[#4DB6AC]">GodPack</span>
+          <span class="bg-[#26A69A]">Section Couleur</span>
+          <span class="bg-[#00897B]">Sections Font</span>
+          <span class="bg-[#00796B]">Section Icons</span>
+          <span>GodPack</span>
+        </div>
+        <div class="flex flex-col mr-4">
+          <span class="bg-[#B2DFDB]">Sections Font</span>
+          <span class="bg-[#80CBC4]">Section Icons</span>
+          <span class="bg-[#4DB6AC]">GodPack</span>
+          <span class="bg-[#26A69A]">Section Couleur</span>
+          <span class="bg-[#00897B]">Sections Font</span>
+          <span class="bg-[#00796B]">Section Icons</span>
+          <span>GodPack</span>
+        </div>
+        <div class="flex flex-col mr-4">
+          <span class="bg-[#B2DFDB]">Sections Font</span>
+          <span class="bg-[#80CBC4]">Section Icons</span>
+          <span class="bg-[#4DB6AC]">GodPack</span>
+          <span class="bg-[#26A69A]">Section Couleur</span>
+          <span class="bg-[#00897B]">Sections Font</span>
+          <span class="bg-[#00796B]">Section Icons</span>
+          <span>GodPack</span>
+        </div>
+         -->
       </div>
     </main>
 

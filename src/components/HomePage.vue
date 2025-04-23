@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-[#F9FAFB] text-[#254159]">
     <!-- Header -->
     <header class="flex justify-between items-center p-6 bg-white shadow-sm">
-      <h1 class="text-2xl font-bold text-[#F27405]">PackIt</h1>
+      <h1 class="text-2xl font-bold text-[#F27405]">NovaKit</h1>
       <nav class="flex gap-6">
         <a href="#" class="hover:text-[#F24405]">Accueil</a>
         <a href="#" class="hover:text-[#F24405]">Marché</a>
@@ -47,7 +47,7 @@
       <span
         >Made with <span class="pi pi-heart-fill ml-0.5 text-2xl" style="color: #f27405"></span
       ></span>
-      <span> © 2025 PackIt. Tous droits réservés.</span>
+      <span> © 2025 NovaKit. Tous droits réservés.</span>
     </footer>
   </div>
 </template>

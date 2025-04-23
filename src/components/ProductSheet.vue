@@ -264,8 +264,50 @@
         </div>
          -->
 
-      <div><h2 class="bg-cyan-700 p-12 text-white">Font - Typography</h2></div>
-      <div><h2 class="bg-cyan-800 p-12 text-white">Title</h2></div>
+      <div><h2 class="bg-cyan-700 p-12 text-white">Font-size</h2></div>
+
+      <div class="flex flex-col">
+        <div class="text-xs">
+          <strong>text-xs</strong><br />
+          Design your website.
+        </div>
+        <div class="text-sm">
+          <strong>text-sm</strong><br />
+          Design your website.
+        </div>
+        <div class="text-base">
+          <strong>text-base</strong><br />
+          Design your website.
+        </div>
+        <div class="text-lg">
+          <strong>text-lg</strong><br />
+          Design your website.
+        </div>
+        <div class="text-xl">
+          <strong>text-xl</strong><br />
+          Design your website.
+        </div>
+        <div class="text-2xl">
+          <strong>text-2xl</strong><br />
+          Design your website.
+        </div>
+      </div>
+
+      <div><h2 class="bg-cyan-800 p-12 text-white">Font-family</h2></div>
+      <div class="space-y-2">
+        <div class="font-sans">
+          <strong>font-sans</strong><br />
+          Design your website.
+        </div>
+        <div class="font-serif">
+          <strong>font-serif</strong><br />
+          Design your website.
+        </div>
+        <div class="font-mono">
+          <strong>font-mono</strong><br />
+          Design your website.
+        </div>
+      </div>
       <div><h2 class="bg-red-800 p-12 text-white">Body</h2></div>
     </main>
 

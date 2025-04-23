@@ -21,7 +21,9 @@
     <!-- Main content - 1 card per row -->
     <main>
       <h2 class="my-background p-12 text-white">Palettes de couleur</h2>
-      <div class="p-4 grid grid-cols-4 gap-4 items-center text-white w-full">
+      <div
+        class="p-4 grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-4 items-center text-white w-full"
+      >
         <!-- Gerer avec grid ? -->
         <!------------------------------------ ROUGE --------------------------->
         <div class="flex flex-col mr-4">

@@ -20,7 +20,7 @@
 -->
     <!-- Main content - 1 card per row -->
     <main class="p-6 space-y-6 max-w-3xl mx-auto">
-      <h1 class="bg-red-500 p-12">Palette de couleur</h1>
+      <h2 class="bg-red-900 p-12 text-white">Palettes de couleur</h2>
       <div class="flex flex-row p-4 items-center text-white w-full">
         <div class="flex flex-col mr-4">
           <span class="bg-[#F44336] p-4">Red</span>
@@ -44,6 +44,7 @@
           <span class="bg-[#FF1744] p-2">red-accent-3<span class="m-10"></span>#FF1744</span>
           <span class="bg-[#D50000] p-2">red-accent-4<span class="m-10"></span>#D50000</span>
         </div>
+
         <!--
         <div class="flex flex-col mr-4">
           <span class="bg-[#673AB7]">Sections Font</span>
@@ -101,6 +102,9 @@
         </div>
          -->
       </div>
+      <div><h2 class="bg-cyan-700 p-12 text-white">Font - Typography</h2></div>
+      <div><h2 class="bg-cyan-800 p-12 text-white">Title</h2></div>
+      <div><h2 class="bg-red-800 p-12 text-white">Body</h2></div>
     </main>
 
     <!-- Footer -->

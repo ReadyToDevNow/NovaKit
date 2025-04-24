@@ -333,6 +333,7 @@
         <!-- VERT -->
       </div>
       <!------------ TEXT AND TYPOGRAPHY -------------->
+      <!------------ Font-size  -------------->
       <div><h2 class="bg-cyan-700 p-12 text-white">Font-size</h2></div>
 
       <div class="flex flex-col">
@@ -361,6 +362,7 @@
           Design your website.
         </div>
       </div>
+      <!------------ Font-family -------------->
 
       <div><h2 class="bg-cyan-800 p-12 text-white">Font-family</h2></div>
       <div class="space-y-2">
@@ -377,7 +379,6 @@
           Design your website.
         </div>
       </div>
-      <div><h2 class="bg-red-800 p-12 text-white">Body</h2></div>
     </main>
 
     <!-- Footer -->

@@ -10,14 +10,6 @@
       </nav>
     </header>
 
-    <!-- Catch Section 
-    <section class="text-center py-20 bg-[#51768C] text-white">
-      <h2 class="text-4xl font-extrabold mb-4">Explorez des assets digitaux uniques</h2>
-      <p class="text-lg max-w-2xl mx-auto">
-        Sprites 2D, illustrations, icônes et bien plus à portée de clic.
-      </p>
-    </section>
--->
     <!-- Main content - 1 card per row -->
     <main>
       <h2 class="my-background p-12 text-white">Palettes de couleur</h2>
@@ -203,9 +195,42 @@
             >Yellow-accent-4<span></span>#FFD600</span
           >
         </div>
+
+        <!----------------- GREY ------------->
+        <div class="flex flex-col mr-4">
+          <span class="bg-[#9E9E9E] p-4">grey</span>
+
+          <span class="bg-[#FAFAFA] flex justify-between items-center text-black p-4"
+            >grey-lighten-5 <span></span>##FAFAFA</span
+          >
+          <span class="bg-[#F5F5F5] flex justify-between items-center text-black p-4"
+            >grey-lighten-4 <span></span>#F5F5F5</span
+          >
+          <span class="bg-[#EEEEEE] flex justify-between items-center text-black p-4"
+            >grey-lighten-3<span> </span>#EEEEEE</span
+          >
+          <span class="bg-[#E0E0E0] flex justify-between items-center text-black p-4"
+            >grey-lighten-2<span></span>#E0E0E0</span
+          >
+          <span class="bg-[#BDBDBD] flex justify-between items-center p-4"
+            >grey-lighten-1 <span></span>#BDBDBD</span
+          >
+          <span class="bg-[#757575] flex justify-between items-center p-4"
+            >grey-darken-1<span></span>#757575</span
+          >
+          <span class="bg-[#616161] flex justify-between items-center p-4"
+            >grey-darken-2 <span></span>#616161</span
+          >
+          <span class="bg-[#424242] flex justify-between items-center p-4"
+            >grey-darken-3 <span></span>#424242</span
+          >
+          <span class="bg-[#212121] flex justify-between items-center p-4"
+            >grey-darken-4<span></span>#212121</span
+          >
+        </div>
         <!-- BLACK AND WHITE -->
         <div class="flex flex-col mr-4">
-          <span class="bg-[#FFEB3B] p-4">Yellow</span>
+          <span class="bg-[#FFEB3B] p-4">Shades</span>
 
           <span class="bg-[#000000] flex justify-between items-center text-white p-4"
             >Black <span></span>#000000</span
@@ -215,6 +240,51 @@
           >
           <span class="bg-[#FFFFFF00] flex justify-between items-center text-black p-4"
             >Transparent<span> </span>#FFFFFF00</span
+          >
+        </div>
+
+        <!-- VERT -->
+        <div class="flex flex-col mr-4">
+          <span class="bg-[#4CAF50] p-4">VERT</span>
+
+          <span class="bg-[#E8F5E9] flex justify-between items-center text-black p-4"
+            >green-lighten-5 <span></span>#E8F5E9</span
+          >
+          <span class="bg-[#C8E6C9] flex justify-between items-center text-black p-4"
+            >green-lighten-4 <span></span>#C8E6C9</span
+          >
+          <span class="bg-[#A5D6A7] flex justify-between items-center text-black p-4"
+            >green-lighten-3<span> </span>#A5D6A7</span
+          >
+          <span class="bg-[#81C784] flex justify-between items-center p-4"
+            >green-lighten-2<span></span>#81C784</span
+          >
+          <span class="bg-[#66BB6A] flex justify-between items-center p-4"
+            >green-lighten-1 <span></span>#66BB6A</span
+          >
+          <span class="bg-[#43A047] flex justify-between items-center p-4"
+            >green-darken-1<span></span>#43A047</span
+          >
+          <span class="bg-[#388E3C] flex justify-between items-center p-4"
+            >green-darken-2 <span></span>#388E3C</span
+          >
+          <span class="bg-[#2E7D32] flex justify-between items-center p-4"
+            >green-darken-3 <span></span>#2E7D32</span
+          >
+          <span class="bg-[#1B5E20] flex justify-between items-center p-4"
+            >green-darken-4<span></span>#1B5E20</span
+          >
+          <span class="bg-[#B9F6CA] flex justify-between items-center text-black p-4"
+            >green-accent-1<span></span>#B9F6CA</span
+          >
+          <span class="bg-[#69F0AE] flex justify-between items-center text-black p-4"
+            >green-accent-2 <span></span>#69F0AE</span
+          >
+          <span class="bg-[#00E676] flex justify-between items-center text-black p-4"
+            >green-accent-3<span></span>#00E676</span
+          >
+          <span class="bg-[#00C853] flex justify-between items-center text-black p-4"
+            >green-accent-4<span></span>#00C853</span
           >
         </div>
       </div>

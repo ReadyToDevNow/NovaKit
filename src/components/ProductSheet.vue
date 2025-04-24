@@ -203,6 +203,20 @@
             >Yellow-accent-4<span></span>#FFD600</span
           >
         </div>
+        <!-- BLACK AND WHITE -->
+        <div class="flex flex-col mr-4">
+          <span class="bg-[#FFEB3B] p-4">Yellow</span>
+
+          <span class="bg-[#000000] flex justify-between items-center text-white p-4"
+            >Black <span></span>#000000</span
+          >
+          <span class="bg-[#FFFFFF] flex justify-between items-center text-black p-4"
+            >White <span></span>#FFFFFF</span
+          >
+          <span class="bg-[#FFFFFF00] flex justify-between items-center text-black p-4"
+            >Transparent<span> </span>#FFFFFF00</span
+          >
+        </div>
       </div>
 
       <!--

@@ -14,7 +14,7 @@
     <main>
       <h2 class="my-background p-12 text-white">Palettes de couleur</h2>
       <div
-        class="p-4 grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-4 items-center text-white w-full"
+        class="p-4 grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-4 text-white w-full"
       >
         <!-- Gerer avec grid ? -->
         <!------------------------------------ ROUGE --------------------------->
@@ -106,6 +106,51 @@
             >pink-accent-4<span></span>#C51162</span
           >
         </div>
+
+        <!--- purple -->
+        <div class="flex flex-col mr-4">
+          <span class="bg-[#9C27B0] p-4">purple</span>
+
+          <span class="bg-[#F3E5F5] flex justify-between items-center text-black p-4"
+            >purple-lighten-5 <span></span>#F3E5F5</span
+          >
+          <span class="bg-[#E1BEE7] flex justify-between items-center text-black p-4"
+            >purple-lighten-4 <span></span>#E1BEE7</span
+          >
+          <span class="bg-[#CE93D8] flex justify-between items-center text-black p-4"
+            >purple-lighten-3<span> </span>#CE93D8</span
+          >
+          <span class="bg-[#BA68C8] flex justify-between items-center p-4"
+            >purple-lighten-2<span></span>#BA68C8
+          </span>
+          <span class="bg-[#AB47BC] flex justify-between items-center p-4"
+            >purple-lighten-1 <span></span>#AB47BC</span
+          >
+          <span class="bg-[#8E24AA] flex justify-between items-center p-4"
+            >purple-darken-1<span></span>#8E24AA</span
+          >
+          <span class="bg-[#7B1FA2] flex justify-between items-center p-4"
+            >purple-darken-2 <span></span>#7B1FA2</span
+          >
+          <span class="bg-[#6A1B9A] flex justify-between items-center p-4"
+            >purple-darken-3 <span></span>#6A1B9A</span
+          >
+          <span class="bg-[#4A148C] flex justify-between items-center p-4"
+            >purple-darken-4<span></span>#4A148C</span
+          >
+          <span class="bg-[#EA80FC] flex justify-between items-center p-4"
+            >purple-accent-1<span></span>#EA80FC</span
+          >
+          <span class="bg-[#E040FB] flex justify-between items-center p-4"
+            >purple-accent-2 <span></span>#E040FB</span
+          >
+          <span class="bg-[#D500F9] flex justify-between items-center p-4"
+            >purple-accent-3<span></span>#D500F9</span
+          >
+          <span class="bg-[#AA00FF] flex justify-between items-center p-4"
+            >purple-accent-4<span></span>#AA00FF</span
+          >
+        </div>
         <!------------------------------------ BLEU --------------------------->
         <div class="flex flex-col mr-4">
           <span class="bg-[#2196F3] p-4">blue</span>
@@ -151,7 +196,7 @@
           >
         </div>
 
-        <!------------------------------------ JAUNE --------------------------->
+        <!------------------------ JAUNE ------------->
         <div class="flex flex-col mr-4">
           <span class="bg-[#FFEB3B] p-4">Yellow</span>
 
@@ -195,13 +240,55 @@
             >Yellow-accent-4<span></span>#FFD600</span
           >
         </div>
+        <div class="flex flex-col mr-4">
+          <span class="bg-[#4CAF50] p-4">vert</span>
 
+          <span class="bg-[#E8F5E9] flex justify-between items-center text-black p-4"
+            >green-lighten-5 <span></span>#E8F5E9</span
+          >
+          <span class="bg-[#C8E6C9] flex justify-between items-center text-black p-4"
+            >green-lighten-4 <span></span>#C8E6C9</span
+          >
+          <span class="bg-[#A5D6A7] flex justify-between items-center text-black p-4"
+            >green-lighten-3<span> </span>#A5D6A7</span
+          >
+          <span class="bg-[#81C784] flex justify-between items-center p-4"
+            >green-lighten-2<span></span>#81C784</span
+          >
+          <span class="bg-[#66BB6A] flex justify-between items-center p-4"
+            >green-lighten-1 <span></span>#66BB6A</span
+          >
+          <span class="bg-[#43A047] flex justify-between items-center p-4"
+            >green-darken-1<span></span>#43A047</span
+          >
+          <span class="bg-[#388E3C] flex justify-between items-center p-4"
+            >green-darken-2 <span></span>#388E3C</span
+          >
+          <span class="bg-[#2E7D32] flex justify-between items-center p-4"
+            >green-darken-3 <span></span>#2E7D32</span
+          >
+          <span class="bg-[#1B5E20] flex justify-between items-center p-4"
+            >green-darken-4<span></span>#1B5E20</span
+          >
+          <span class="bg-[#B9F6CA] flex justify-between items-center text-black p-4"
+            >green-accent-1<span></span>#B9F6CA</span
+          >
+          <span class="bg-[#69F0AE] flex justify-between items-center text-black p-4"
+            >green-accent-2 <span></span>#69F0AE</span
+          >
+          <span class="bg-[#00E676] flex justify-between items-center text-black p-4"
+            >green-accent-3<span></span>#00E676</span
+          >
+          <span class="bg-[#00C853] flex justify-between items-center text-black p-4"
+            >green-accent-4<span></span>#00C853</span
+          >
+        </div>
         <!----------------- GREY ------------->
         <div class="flex flex-col mr-4">
           <span class="bg-[#9E9E9E] p-4">grey</span>
 
           <span class="bg-[#FAFAFA] flex justify-between items-center text-black p-4"
-            >grey-lighten-5 <span></span>##FAFAFA</span
+            >grey-lighten-5 <span></span>#FAFAFA</span
           >
           <span class="bg-[#F5F5F5] flex justify-between items-center text-black p-4"
             >grey-lighten-4 <span></span>#F5F5F5</span
@@ -244,108 +331,8 @@
         </div>
 
         <!-- VERT -->
-        <div class="flex flex-col mr-4">
-          <span class="bg-[#4CAF50] p-4">VERT</span>
-
-          <span class="bg-[#E8F5E9] flex justify-between items-center text-black p-4"
-            >green-lighten-5 <span></span>#E8F5E9</span
-          >
-          <span class="bg-[#C8E6C9] flex justify-between items-center text-black p-4"
-            >green-lighten-4 <span></span>#C8E6C9</span
-          >
-          <span class="bg-[#A5D6A7] flex justify-between items-center text-black p-4"
-            >green-lighten-3<span> </span>#A5D6A7</span
-          >
-          <span class="bg-[#81C784] flex justify-between items-center p-4"
-            >green-lighten-2<span></span>#81C784</span
-          >
-          <span class="bg-[#66BB6A] flex justify-between items-center p-4"
-            >green-lighten-1 <span></span>#66BB6A</span
-          >
-          <span class="bg-[#43A047] flex justify-between items-center p-4"
-            >green-darken-1<span></span>#43A047</span
-          >
-          <span class="bg-[#388E3C] flex justify-between items-center p-4"
-            >green-darken-2 <span></span>#388E3C</span
-          >
-          <span class="bg-[#2E7D32] flex justify-between items-center p-4"
-            >green-darken-3 <span></span>#2E7D32</span
-          >
-          <span class="bg-[#1B5E20] flex justify-between items-center p-4"
-            >green-darken-4<span></span>#1B5E20</span
-          >
-          <span class="bg-[#B9F6CA] flex justify-between items-center text-black p-4"
-            >green-accent-1<span></span>#B9F6CA</span
-          >
-          <span class="bg-[#69F0AE] flex justify-between items-center text-black p-4"
-            >green-accent-2 <span></span>#69F0AE</span
-          >
-          <span class="bg-[#00E676] flex justify-between items-center text-black p-4"
-            >green-accent-3<span></span>#00E676</span
-          >
-          <span class="bg-[#00C853] flex justify-between items-center text-black p-4"
-            >green-accent-4<span></span>#00C853</span
-          >
-        </div>
       </div>
-
-      <!--
-        <div class="flex flex-col mr-4">
-          <span class="bg-[#673AB7]">Sections Font</span>
-          <span class="bg-[#EDE7F6]">Section Icons</span>
-          <span class="bg-[#D1C4E9]">GodPack</span>
-          <span class="bg-[#B39DDB]">Section Couleur</span>
-          <span class="bg-[#9575CD]">Sections Font</span>
-          <span class="bg-[#7E57C2]">Section Icons</span>
-          <span>GodPack</span>
-        </div>
-        <div class="flex flex-col mr-4">
-          <span class="bg-[#B2EBF2]">Sections Font</span>
-          <span class="bg-[#80DEEA]">Section Icons</span>
-          <span class="bg-[#4DD0E1]">GodPack</span>
-          <span class="bg-[#26C6DA]">Section Couleur</span>
-          <span class="bg-[#00ACC1]">Sections Font</span>
-          <span class="bg-[#0097A7]">Section Icons</span>
-          <span>GodPack</span>
-        </div>
-        <div class="flex flex-col mr-4">
-          <span class="bg-[#B2DFDB]">Sections Font</span>
-          <span class="bg-[#80CBC4]">Section Icons</span>
-          <span class="bg-[#4DB6AC]">GodPack</span>
-          <span class="bg-[#26A69A]">Section Couleur</span>
-          <span class="bg-[#00897B]">Sections Font</span>
-          <span class="bg-[#00796B]">Section Icons</span>
-          <span>GodPack</span>
-        </div>
-        <div class="flex flex-col mr-4">
-          <span class="bg-[#B2DFDB]">Sections Font</span>
-          <span class="bg-[#80CBC4]">Section Icons</span>
-          <span class="bg-[#4DB6AC]">GodPack</span>
-          <span class="bg-[#26A69A]">Section Couleur</span>
-          <span class="bg-[#00897B]">Sections Font</span>
-          <span class="bg-[#00796B]">Section Icons</span>
-          <span>GodPack</span>
-        </div>
-        <div class="flex flex-col mr-4">
-          <span class="bg-[#B2DFDB]">Sections Font</span>
-          <span class="bg-[#80CBC4]">Section Icons</span>
-          <span class="bg-[#4DB6AC]">GodPack</span>
-          <span class="bg-[#26A69A]">Section Couleur</span>
-          <span class="bg-[#00897B]">Sections Font</span>
-          <span class="bg-[#00796B]">Section Icons</span>
-          <span>GodPack</span>
-        </div>
-        <div class="flex flex-col mr-4">
-          <span class="bg-[#B2DFDB]">Sections Font</span>
-          <span class="bg-[#80CBC4]">Section Icons</span>
-          <span class="bg-[#4DB6AC]">GodPack</span>
-          <span class="bg-[#26A69A]">Section Couleur</span>
-          <span class="bg-[#00897B]">Sections Font</span>
-          <span class="bg-[#00796B]">Section Icons</span>
-          <span>GodPack</span>
-        </div>
-         -->
-
+      <!------------ TEXT AND TYPOGRAPHY -------------->
       <div><h2 class="bg-cyan-700 p-12 text-white">Font-size</h2></div>
 
       <div class="flex flex-col">

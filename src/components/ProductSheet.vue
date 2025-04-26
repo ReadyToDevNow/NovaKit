@@ -365,7 +365,12 @@
       <!------------ Font-family -------------->
 
       <div><h2 class="bg-cyan-800 p-12 text-white title-section">Font-family</h2></div>
+
       <div class="flex flex-col gap-2 p-4">
+        <DataTable :value="fonts" stripedRows tableStyle="min-width: 50rem">
+          <Column field="Classe" header="Classe"></Column>
+          <Column field="Style" header="Style"></Column>
+        </DataTable>
         <div class="font-sans">
           <strong>font-sans</strong><br />
           Design your website.
@@ -392,7 +397,25 @@
     </footer>
   </div>
 </template>
-<script></script>
+<script setup>
+import DataTable from 'primevue/datatable'
+import Column from 'primevue/column'
+
+const fonts = [
+  {
+    Classe: 'font-sans',
+    Style: 'font-family: var(--font-sans);',
+  },
+  {
+    Classe: 'font-serif',
+    Style: 'font-family: var(--font-serif);',
+  },
+  {
+    Classe: 'font-mono',
+    Style: 'font-family: var(--font-mono);',
+  },
+]
+</script>
 <style scoped>
 .my-background {
   background: linear-gradient(90deg, #d32f2f, #ec407a, #1976d2, #fff176);

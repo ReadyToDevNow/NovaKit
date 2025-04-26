@@ -336,7 +336,7 @@
       <!------------ Font-size  -------------->
       <div><h2 class="bg-cyan-700 p-12 text-white title-section">Font-size</h2></div>
 
-      <div class="flex flex-col">
+      <div class="flex flex-col gap-2 p-4">
         <div class="text-xs">
           <strong>text-xs</strong><br />
           Design your website.
@@ -365,7 +365,7 @@
       <!------------ Font-family -------------->
 
       <div><h2 class="bg-cyan-800 p-12 text-white title-section">Font-family</h2></div>
-      <div class="space-y-2">
+      <div class="flex flex-col gap-2 p-4">
         <div class="font-sans">
           <strong>font-sans</strong><br />
           Design your website.

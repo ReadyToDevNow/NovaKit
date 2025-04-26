@@ -12,7 +12,7 @@
 
     <!-- Main content - 1 card per row -->
     <main>
-      <h2 class="my-background p-12 text-white">Palettes de couleur</h2>
+      <h2 class="my-background p-12 text-white title-section">Palettes de couleurs</h2>
       <div
         class="p-4 grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-4 text-white w-full"
       >
@@ -334,7 +334,7 @@
       </div>
       <!------------ TEXT AND TYPOGRAPHY -------------->
       <!------------ Font-size  -------------->
-      <div><h2 class="bg-cyan-700 p-12 text-white">Font-size</h2></div>
+      <div><h2 class="bg-cyan-700 p-12 text-white title-section">Font-size</h2></div>
 
       <div class="flex flex-col">
         <div class="text-xs">
@@ -364,7 +364,7 @@
       </div>
       <!------------ Font-family -------------->
 
-      <div><h2 class="bg-cyan-800 p-12 text-white">Font-family</h2></div>
+      <div><h2 class="bg-cyan-800 p-12 text-white title-section">Font-family</h2></div>
       <div class="space-y-2">
         <div class="font-sans">
           <strong>font-sans</strong><br />
@@ -396,5 +396,10 @@
 <style scoped>
 .my-background {
   background: linear-gradient(90deg, #d32f2f, #ec407a, #1976d2, #fff176);
+}
+
+.title-section {
+  font-size: var(--text-2xl);
+  font-family: Arial, Helvetica, sans-serif;
 }
 </style>

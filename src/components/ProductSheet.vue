@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-[#F9FAFB] text-[#254159]">
+  <div class="min-h-screen bg-[#cdddef] text-[#254159]">
     <!-- Header -->
     <header class="flex justify-between items-center p-6 bg-white shadow-sm">
       <h1 class="text-2xl font-bold text-[#F27405]">NovaKit</h1>
@@ -368,7 +368,7 @@
 
       <div class="flex flex-col gap-2 p-4">
         <DataTable :value="fonts" stripedRows tableStyle="min-width: 50rem">
-          <Column field="Classe" header="Classe"></Column>
+          <Column field="Class" header="Class"></Column>
           <Column field="Style" header="Style"></Column>
         </DataTable>
         <div class="font-sans">
@@ -403,15 +403,15 @@ import Column from 'primevue/column'
 
 const fonts = [
   {
-    Classe: 'font-sans',
+    Class: 'font-sans',
     Style: 'font-family: var(--font-sans);',
   },
   {
-    Classe: 'font-serif',
+    Class: 'font-serif',
     Style: 'font-family: var(--font-serif);',
   },
   {
-    Classe: 'font-mono',
+    Class: 'font-mono',
     Style: 'font-family: var(--font-mono);',
   },
 ]

@@ -337,6 +337,10 @@
       <div><h2 class="bg-cyan-700 p-12 text-white title-section">Font-size</h2></div>
 
       <div class="flex flex-col gap-2 p-4">
+        <DataTable :value="size" stripedRows tableStyle="min-width: 50rem">
+          <Column field="class" header="Class"></Column>
+          <Column field="style" header="Style"></Column>
+        </DataTable>
         <div class="text-xs">
           <strong>text-xs</strong><br />
           Design your website.
@@ -403,10 +407,14 @@ import Column from 'primevue/column'
 import { ref, onMounted } from 'vue'
 import { ProductService } from '@/services/ProductService'
 
+const products = ref()
+const size = ref()
+
 onMounted(() => {
+  ProductService.getSize().then((data) => (size.value = data))
   ProductService.getProducts().then((data) => (products.value = data))
 })
-const products = ref()
+
 /*const fonts = [
   {
     Class: 'font-sans',

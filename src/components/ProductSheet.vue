@@ -365,11 +365,11 @@
       <!------------ Font-family -------------->
 
       <div><h2 class="bg-cyan-800 p-12 text-white title-section">Font-family</h2></div>
-
+      <!------------ DataTable font-family -------------->
       <div class="flex flex-col gap-2 p-4">
-        <DataTable :value="fonts" stripedRows tableStyle="min-width: 50rem">
-          <Column field="Class" header="Class"></Column>
-          <Column field="Style" header="Style"></Column>
+        <DataTable :value="products" stripedRows tableStyle="min-width: 50rem">
+          <Column field="class" header="Class"></Column>
+          <Column field="style" header="Style"></Column>
         </DataTable>
         <div class="font-sans">
           <strong>font-sans</strong><br />
@@ -400,8 +400,14 @@
 <script setup>
 import DataTable from 'primevue/datatable'
 import Column from 'primevue/column'
+import { ref, onMounted } from 'vue'
+import { ProductService } from '@/services/ProductService'
 
-const fonts = [
+onMounted(() => {
+  ProductService.getProducts().then((data) => (products.value = data))
+})
+const products = ref()
+/*const fonts = [
   {
     Class: 'font-sans',
     Style: 'font-family: var(--font-sans);',
@@ -415,6 +421,7 @@ const fonts = [
     Style: 'font-family: var(--font-mono);',
   },
 ]
+  */
 </script>
 <style scoped>
 .my-background {

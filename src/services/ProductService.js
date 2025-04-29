@@ -1,20 +1,4 @@
 export const ProductService = {
-  getProductData() {
-    return [
-      {
-        class: 'font-sans',
-        style: 'font-family: var(--font-sans);',
-      },
-      {
-        class: 'font-serif',
-        style: 'font-family: var(--font-serif);',
-      },
-      {
-        class: 'font-mono',
-        style: 'font-family: var(--font-mono);',
-      },
-    ]
-  },
   getFontSize() {
     return [
       {
@@ -40,6 +24,25 @@ export const ProductService = {
       {
         class: 'text-2xl',
         style: 'font-size: var(--text-2xl);',
+      },
+    ]
+  },
+  getProductData() {
+    return [
+      {
+        class: 'font-sans',
+        style: 'font-family: var(--font-sans);',
+        test: '100',
+      },
+      {
+        class: 'font-serif',
+        style: 'font-family: var(--font-serif);',
+        test: '100',
+      },
+      {
+        class: 'font-mono',
+        style: 'font-family: var(--font-mono);',
+        test: '100',
       },
     ]
   },

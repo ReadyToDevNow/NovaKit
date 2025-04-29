@@ -371,7 +371,7 @@
       <div><h2 class="bg-cyan-800 p-12 text-white title-section">Font-family</h2></div>
       <!------------ DataTable font-family -------------->
       <div class="flex flex-col gap-2 p-4">
-        <DataTable :value="products" stripedRows tableStyle="min-width: 50rem">
+        <DataTable :value="family" stripedRows tableStyle="min-width: 50rem">
           <Column field="class" header="Class"></Column>
           <Column field="style" header="Style"></Column>
         </DataTable>
@@ -407,12 +407,12 @@ import Column from 'primevue/column'
 import { ref, onMounted } from 'vue'
 import { ProductService } from '@/services/ProductService'
 
-const products = ref()
+const family = ref()
 const size = ref()
 
 onMounted(() => {
   ProductService.getSize().then((data) => (size.value = data))
-  ProductService.getProducts().then((data) => (products.value = data))
+  ProductService.getProducts().then((data) => (family.value = data))
 })
 
 /*const fonts = [

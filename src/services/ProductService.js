@@ -33,6 +33,14 @@ export const ProductService = {
         class: 'text-lg',
         style: 'font-size: var(--text-lg);',
       },
+      {
+        class: 'text-xl',
+        style: 'font-size: var(--text-xl);',
+      },
+      {
+        class: 'text-2xl',
+        style: 'font-size: var(--text-2xl);',
+      },
     ]
   },
   getProducts() {
